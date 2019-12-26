@@ -1,0 +1,10 @@
+prefix=@prefix@
+libdir=@libdir@
+includedir=${prefix}/include
+
+Name: ziogg
+Description: A ZIO library with support for OGG files
+Version: @VERSION@
+Libs: -L${libdir} @LLIBS@
+Cflags: -I${includedir}
+Requires: @REQUIRES@
